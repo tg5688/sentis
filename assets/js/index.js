@@ -14,7 +14,7 @@ $('.navbar-main__link').on('click', function () {
 
 //slider
 var count = 0;
-var images = ['assets/img/slider/cayo.jpg', 'assets/img/slider/diego.jpg', 'assets/img/slider/inez.jpg', 'assets/img/slider/lope.jpg', 'assets/img/slider/ramon.jpg', 'assets/img/slider/sensa.jpg', 'assets/img/slider/vidrio.jpg'];
+var images = ['assets/img/Slider/cayo.jpg', 'assets/img/Slider/diego.jpg', 'assets/img/Slider/inez.jpg', 'assets/img/Slider/lope.jpg', 'assets/img/Slider/ramon.jpg', 'assets/img/Slider/sensa.jpg', 'assets/img/Slider/vidrio.jpg'];
 // const doors=
 
 const image = $('.banner');
