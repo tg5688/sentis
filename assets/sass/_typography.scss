@@ -1,0 +1,115 @@
+.heading {
+    color: $color-heading;
+    text-transform: uppercase;
+    text-align: center;
+
+
+    &--primary {
+        font-size: 3.5rem;
+        line-height: 1;
+    }
+
+    &--secondary {
+        margin: 2rem 0;
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    &--slider_box {
+        position: relative;
+        margin-top: 1.2rem;
+        color: $color-primary;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 1.7rem;
+            left: 0rem;
+            height: 3px;
+            width: 4.2rem;
+            background-color: $color-bg-secondary;
+        }
+    }
+
+    &--section {
+        text-align: left;
+        position: relative;
+        font-size: 2.5rem;
+        margin: 2rem 0;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -4px;
+            left: 0;
+            height: 3px;
+            width: 8rem;
+            background-color: $color-bg-secondary;
+        }
+    }
+
+    &--detail {
+        margin-bottom: 3rem;
+        text-align: left;
+        font-size: 1.6rem;
+        letter-spacing: 1.5px;
+
+        @include respond(phone) {
+            margin-bottom: 1rem;
+            font-size: 1.8rem;
+        }
+    }
+
+    &--about {
+        margin-left: 1.5rem;
+        text-align: left;
+        font-size: 2.5rem;
+        color: $color-secondary;
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            background-color: $color-bg-primary;
+            height: 2px;
+            width: 50px;
+            position: absolute;
+            top: 14px;
+            left: -140px;
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            background-color: $color-bg-primary;
+            height: 2px;
+            width: 50px;
+            position: absolute;
+            top: 14px;
+            right: -60px;
+        }
+    }
+
+    &--contact {
+        text-align: left;
+        font-size: 1.6rem;
+        margin-right: 1rem;
+    }
+}
+
+.paragraph {
+    color: $color-primary;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    text-align: justify;
+    letter-spacing: 1px;
+
+    &--about {
+        color: $color-secondary;
+        font-size: 1.8rem;
+    }
+}
