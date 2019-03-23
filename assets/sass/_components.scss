@@ -4,10 +4,6 @@
     }
 }
 
-.logo__img {
-    @include img-resp;
-}
-
 .burger {
     display: none;
     position: absolute;
@@ -50,11 +46,13 @@
     height: calc(85vh - 2rem);
     // background-image: url('../img/Slider/Sentis_Cayo_drzwi_wewnetrze_aranzacja.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
-    // @include respond(phone) {
-    //     left: 0;
-    // }
+    @include respond(tab-port) {
+        background-position: right center;
+    }
 
     &__overlay {
         position: absolute;
@@ -73,7 +71,7 @@
         text-transform: uppercase;
         text-decoration: none;
         display: flex;
-
+        align-items: center;
     }
 
     &--collection {
@@ -83,7 +81,7 @@
         background-color: $color-bg-secondary;
 
         @include respond(phone) {
-            bottom: calc(100% - 62px);
+            // bottom: 0;
             left: 0;
         }
 
@@ -95,10 +93,10 @@
 
     &__text {
         color: $color-secondary;
-        padding: 2rem;
+        padding: 1.5rem;
         text-transform: uppercase;
         font-size: 1.3rem;
-        line-height: 3rem;
+        // line-height: 2rem;
         width: 100%;
         border: 3px solid $color-bg-secondary;
         transition: .3s all;
@@ -121,12 +119,13 @@
     }
 
     &__icon {
-        padding: 2rem;
+        padding: 1.5rem;
         background-color: #fff;
+        align-self: center;
 
-        @include respond(phone) {
-            display: none;
-        }
+        // @include respond(phone) {
+        //     display: none;
+        // }
     }
 
     &--send {
@@ -144,11 +143,11 @@
 .slider-box {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     display: flex;
     padding: 1rem;
     background-color: $color-bg-primary;
-    opacity: .5;
+    opacity: .8;
 
     // &__overlay {
     //     position: absolute;
@@ -203,6 +202,21 @@
     }
 }
 
+.door {
+
+    // &__element {
+    //     position: absolute;
+    // }
+
+    &__img {
+        padding: 2rem 0;
+        // @include img-resp;
+
+        // width: 90%;
+        // height: auto;
+    }
+}
+
 .model {
     padding: 2rem 0;
     display: flex;
@@ -227,6 +241,17 @@
         margin: 0 auto;
         width: 70%;
         height: auto;
+    }
+
+
+    &--ramon,
+    &--sensa {
+        display: none;
+    }
+
+    &--ramon.active,
+    &--sensa.active {
+        display: flex
     }
 }
 
@@ -267,16 +292,22 @@
 
     &__img {
         align-self: flex-end;
-        margin-top: 2rem;
+
 
         @include respond(phone) {
+            margin-top: 2rem;
             align-self: flex-start;
+        }
+
+        &--type {
+            cursor: pointer;
         }
 
     }
 
     &__figure {
         margin-right: 1rem;
+        margin-bottom: 1rem;
 
         @include respond(tab-port) {
             flex-basis: 20%;
@@ -287,7 +318,7 @@
 
     &__figcaption {
         font-size: 1.2rem;
-        margin-bottom: 3rem;
+        // margin-bottom: 3rem;
     }
 }
 
@@ -309,6 +340,11 @@
         // text-align: right;
         // width: 100%;
     }
+}
+
+.google-maps {
+    height: 380px;
+    width: 100%;
 }
 
 .form {

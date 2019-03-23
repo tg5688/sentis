@@ -42,6 +42,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
         ; //900px
     }
 
+
     @if $breakpoint==phone {
         @media only screen and (max-width: 37.5em) {
             @content
@@ -49,12 +50,4 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
         ; //600px
     }
-}
-
-
-@mixin img-resp {
-    // .responsive-img {
-    width: 100%;
-    height: auto;
-    // }
 }

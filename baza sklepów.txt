@@ -1,0 +1,451 @@
+, {
+                    "postalCode": "22-600",
+                    "city": "Tomasz\u00f3w Lubelski",
+                    "coordinates1": "50.463677",
+                    "coordinates2": "23.423244599999975",
+                    "phone": "84 664 68 74",
+                    "address": "ul. \u0141aszczowiecka 1",
+                    "id": 6,
+                    "email": "tomaszow@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/tomaszow-lubelski-ul-laszczowiecka-1,6.html"
+                  }, {
+                    "postalCode": "23-400",
+                    "city": "Bi\u0142goraj",
+                    "coordinates1": "50.527954",
+                    "coordinates2": "22.727679099999932",
+                    "phone": "84 686 73 34",
+                    "address": "ul. Gen. Komorowskiego 25",
+                    "id": 7,
+                    "email": "bilgoraj@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/bilgoraj-ul-gen-komorowskiego-25,7.html"
+                  }, {
+                    "postalCode": "05-119",
+                    "city": "Legionowo",
+                    "coordinates1": "52.4164847",
+                    "coordinates2": "20.964431699999977",
+                    "phone": "22 772 11 58",
+                    "address": "ul. Warszawska 29A",
+                    "id": 8,
+                    "email": "legionowo@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/legionowo-ul-warszawska-29a,8.html"
+                  }, {
+                    "postalCode": "26-600",
+                    "city": "Radom",
+                    "coordinates1": "51.391011",
+                    "coordinates2": "21.144139300000006",
+                    "phone": "48 383 06 05",
+                    "address": "ul. 1905 Roku 9",
+                    "id": 9,
+                    "email": "radom@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/radom-ul-1905-roku-9,9.html"
+                  }, {
+                    "postalCode": "06-100",
+                    "city": "Pu\u0142tusk",
+                    "coordinates1": "52.70265819999999",
+                    "coordinates2": "21.066209999999955",
+                    "phone": "609 620 777",
+                    "address": "ul. Mickiewicza 45\/51",
+                    "id": 10,
+                    "email": "podlogi.panele@glazbud.com",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/pultusk-ul-mickiewicza-45-51,10.html"
+                  }, {
+                    "postalCode": "44-240",
+                    "city": "\u017bory",
+                    "coordinates1": "50.040881",
+                    "coordinates2": "18.689114000000018",
+                    "phone": "662 195 112",
+                    "address": "ul. Bory\u0144ska 7",
+                    "id": 12,
+                    "email": "zory@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/zory-ul-borynska-7,12.html"
+                  }, {
+                    "postalCode": "44-200",
+                    "city": "Rybnik",
+                    "coordinates1": "50.092132",
+                    "coordinates2": "18.54045700000006",
+                    "phone": "692 450 682",
+                    "address": "ul. M\u0142y\u0144ska 4",
+                    "id": 13,
+                    "email": "rybnik@ruckzuck-partner.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/rybnik-ul-mlynska-4,13.html"
+                  }, {
+                    "postalCode": "43-200",
+                    "city": "Pszczyna,",
+                    "coordinates1": "49.9697521",
+                    "coordinates2": "18.957056299999977",
+                    "phone": "506 300 320",
+                    "address": "ul. G\u00f3rno\u015bl\u0105ska 3",
+                    "id": 14,
+                    "email": "pszczyna@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/pszczyna-ul-gornoslaska-3,14.html"
+                  }, {
+                    "postalCode": "43-400",
+                    "city": "Cieszyn",
+                    "coordinates1": "49.7519289",
+                    "coordinates2": "18.673858999999993",
+                    "phone": "33 479 77 66",
+                    "address": "ul. Bielska 150",
+                    "id": 15,
+                    "email": "cieszyn@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/cieszyn-ul-bielska-150,15.html"
+                  }, {
+                    "postalCode": "47-400",
+                    "city": "Racib\u00f3rz",
+                    "coordinates1": "50.09778250000001",
+                    "coordinates2": "18.207504500000027",
+                    "phone": "537 490 405",
+                    "address": "ul. G\u0142ubczycka 13",
+                    "id": 16,
+                    "email": "raciborz.ruckzuck@gmail.com",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/raciborz-ul-glubczycka-13,16.html"
+                  }, {
+                    "postalCode": "44-100",
+                    "city": "Gliwice",
+                    "coordinates1": "50.27607339999999",
+                    "coordinates2": "18.69628399999999",
+                    "phone": "32 330 00 33",
+                    "address": "ul. Pszczy\u0144ska 192",
+                    "id": 17,
+                    "email": "gliwice@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/gliwice-ul-pszczynska-192,17.html"
+                  }, {
+                    "postalCode": "42-680",
+                    "city": "Tarnowskie G\u00f3ry",
+                    "coordinates1": "50.454498",
+                    "coordinates2": "18.81747789999997",
+                    "phone": "32 284 21 01",
+                    "address": "ul. Wiejska 58",
+                    "id": 18,
+                    "email": "skleptg@elpact.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/tarnowskie-gory-ul-wiejska-58,18.html"
+                  }, {
+                    "postalCode": "41-800",
+                    "city": "Zabrze",
+                    "coordinates1": "50.2958215",
+                    "coordinates2": "18.777444999999943",
+                    "phone": "32 2763 369",
+                    "address": "ul. Roosevelta 52 B",
+                    "id": 19,
+                    "email": "zabrze@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/zabrze-ul-roosevelta-52-b,19.html"
+                  }, {
+                    "postalCode": "44-335",
+                    "city": "Jastrz\u0119bie-Zdr\u00f3j",
+                    "coordinates1": "49.953964",
+                    "coordinates2": "18.574292000000014",
+                    "phone": "32 469 96 66",
+                    "address": "ul. Zdrojowa 3",
+                    "id": 20,
+                    "email": "jastrzebie@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/jastrzebie-zdroj-ul-zdrojowa-3,20.html"
+                  }, {
+                    "postalCode": "56-500",
+                    "city": "Syc\u00f3w",
+                    "coordinates1": "51.309937",
+                    "coordinates2": "17.72415799999999",
+                    "phone": "627 810 506",
+                    "address": "ul. Mickiewicza 8",
+                    "id": 21,
+                    "email": "sycow@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/sycow-ul-mickiewicza-8,21.html"
+                  }, {
+                    "postalCode": "42-500",
+                    "city": "B\u0119dzin",
+                    "coordinates1": "50.320093",
+                    "coordinates2": "19.13677580000001",
+                    "phone": "501227540",
+                    "address": "ul. Sienkiewicza 33",
+                    "id": 22,
+                    "email": "bedzin@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/bedzin-ul-sienkiewicza-33,22.html"
+                  }, {
+                    "postalCode": "53-608",
+                    "city": "Wroc\u0142aw",
+                    "coordinates1": "51.112546",
+                    "coordinates2": "16.99576490000004",
+                    "phone": "731 452 000",
+                    "address": "ul. Robotnicza 92-94",
+                    "id": 23,
+                    "email": "biuro@rz.wroc.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/wroclaw-ul-robotnicza-92-94,23.html"
+                  }, {
+                    "postalCode": "700 30",
+                    "city": "Ostrava",
+                    "coordinates1": "49.80027219999999",
+                    "coordinates2": "18.230623299999934",
+                    "phone": "595 783 070",
+                    "address": "ul. Vyskovicka 3086\/44",
+                    "id": 24,
+                    "email": "ruckzuck-wik@seznam.cz",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/ostrava-ul-vyskovicka-3086-44,24.html"
+                  }, {
+                    "postalCode": "68-400",
+                    "city": "Gorz\u00f3w Wielkopolski",
+                    "coordinates1": "52.7135715",
+                    "coordinates2": "15.255618400000003",
+                    "phone": "95 723 93 97",
+                    "address": "ul. Koniawska 41",
+                    "id": 25,
+                    "email": "gorzow@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/gorzow-wielkopolski-ul-koniawska-41,25.html"
+                  }, {
+                    "postalCode": "68-100",
+                    "city": "\u017baga\u0144",
+                    "coordinates1": "51.609716",
+                    "coordinates2": "15.301773000000026",
+                    "phone": "665 850 400",
+                    "address": "ul. Sp\u00f3\u0142dzielcza 1",
+                    "id": 26,
+                    "email": "zagan@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/zagan-ul-spoldzielcza-1,26.html"
+                  }, {
+                    "postalCode": "66-100",
+                    "city": "Sulech\u00f3w",
+                    "coordinates1": "52.0768656",
+                    "coordinates2": "15.624961100000064",
+                    "phone": "68 320 07 56",
+                    "address": "ul. Kruszyna 26",
+                    "id": 27,
+                    "email": "sulechow@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/sulechow-ul-kruszyna-26,27.html"
+                  }, {
+                    "postalCode": "66-600",
+                    "city": "Krosno Odrza\u0144skie",
+                    "coordinates1": "52.0625151",
+                    "coordinates2": "15.077880800000003",
+                    "phone": "683 830 687",
+                    "address": "ul. Marcinowice 4B",
+                    "id": 28,
+                    "email": "krosnoodrzanskie@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/krosno-odrzanskie-ul-marcinowice-4b,28.html"
+                  }, {
+                    "postalCode": "87-300",
+                    "city": "Brodnica",
+                    "coordinates1": "53.2636216",
+                    "coordinates2": "19.403104799999937",
+                    "phone": "56 498 44 91",
+                    "address": "ul. Kolejowa 1",
+                    "id": 29,
+                    "email": "brodnica@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/brodnica-ul-kolejowa-1,29.html"
+                  }, {
+                    "postalCode": "85-738",
+                    "city": "Bydgoszcz",
+                    "coordinates1": "53.1222855",
+                    "coordinates2": "18.057834800000023",
+                    "phone": "52 329 90 36",
+                    "address": "ul. Szajnochy 4",
+                    "id": 30,
+                    "email": "hdf.bydgoszcz@wp.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/bydgoszcz-ul-szajnochy-4,30.html"
+                  }, {
+                    "postalCode": "87-100",
+                    "city": "Toru\u0144",
+                    "coordinates1": "53.0398714",
+                    "coordinates2": "18.630107599999974",
+                    "phone": "513 138 988",
+                    "address": "ul. Chrobrego 135\/137",
+                    "id": 31,
+                    "email": "torun@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/torun-ul-chrobrego-135-137,31.html"
+                  }, {
+                    "postalCode": "87-800",
+                    "city": "W\u0142oc\u0142awek",
+                    "coordinates1": "52.6487659",
+                    "coordinates2": "19.104892199999995",
+                    "phone": "542 321 500",
+                    "address": "ul. Zielna 37\/39",
+                    "id": 32,
+                    "email": "wloclawek@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/wloclawek-ul-zielna-37-39,32.html"
+                  }, {
+                    "postalCode": "14-200",
+                    "city": "I\u0142awa",
+                    "coordinates1": "53.5851501",
+                    "coordinates2": "19.57677549999994",
+                    "phone": "89 648 29 41",
+                    "address": "al. Jana Paw\u0142a II 1e",
+                    "id": 33,
+                    "email": "ilawa@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/ilawa-al-jana-pawla-ii-1e,33.html"
+                  }, {
+                    "postalCode": "98-300",
+                    "city": "Wielu\u0144",
+                    "coordinates1": "51.22155309999999",
+                    "coordinates2": "18.579849200000012",
+                    "phone": "43 843 99 63",
+                    "address": "ul. Stodolniana 28",
+                    "id": 34,
+                    "email": "wielun@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/wielun-ul-stodolniana-28,34.html"
+                  }, {
+                    "postalCode": "99-300",
+                    "city": "Kutno",
+                    "coordinates1": "52.2307199",
+                    "coordinates2": "19.355301699999927",
+                    "phone": "24 355 12 53",
+                    "address": "ul. Sienkiewicza 11",
+                    "id": 35,
+                    "email": "biuro@prem.net.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/kutno-ul-sienkiewicza-11,35.html"
+                  }, {
+                    "postalCode": "98-330",
+                    "city": "Paj\u0119czno",
+                    "coordinates1": "51.14635999999999",
+                    "coordinates2": "18.985143600000015",
+                    "phone": "608 607 942",
+                    "address": "ul. Moniuszki 44",
+                    "id": 36,
+                    "email": "pajeczno@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/pajeczno-ul-moniuszki-44,36.html"
+                  }, {
+                    "postalCode": "18-400",
+                    "city": "\u0141om\u017ca",
+                    "coordinates1": "53.1676242",
+                    "coordinates2": "22.058618799999977",
+                    "phone": "86 2198 250",
+                    "address": "ul. Towarowa 4",
+                    "id": 37,
+                    "email": "lomza@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/lomza-ul-towarowa-4,37.html"
+                  }, {
+                    "postalCode": "19-100",
+                    "city": "Mo\u0144ki",
+                    "coordinates1": "53.39912289999999",
+                    "coordinates2": "22.797814000000017",
+                    "phone": "85 716 23 99",
+                    "address": "ul. Magazynowa 6",
+                    "id": 38,
+                    "email": "monki@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/monki-ul-magazynowa-6,38.html"
+                  }, {
+                    "postalCode": "15-399",
+                    "city": "Bia\u0142ystok",
+                    "coordinates1": "53.1158368",
+                    "coordinates2": "23.127267800000027",
+                    "phone": "85 66 33 202",
+                    "address": "ul. Sk\u0142adowa 12",
+                    "id": 39,
+                    "email": "bialystok2@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/bialystok-ul-skladowa-12,39.html"
+                  }, {
+                    "postalCode": "75-213",
+                    "city": "Koszalin",
+                    "coordinates1": "54.199727",
+                    "coordinates2": "16.159815999999978",
+                    "phone": "94 346 52 52",
+                    "address": "ul. Lniana 6A",
+                    "id": 40,
+                    "email": "koszalin@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/koszalin-ul-lniana-6a,40.html"
+                  }, {
+                    "postalCode": "27-200",
+                    "city": "Starachowice",
+                    "coordinates1": "51.0382687",
+                    "coordinates2": "21.08238099999994",
+                    "phone": "41 274 23 58",
+                    "address": "ul. Kana\u0142owa 1B",
+                    "id": 41,
+                    "email": "starachowice@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/starachowice-ul-kanalowa-1b,41.html"
+                  }, {
+                    "postalCode": "25-558",
+                    "city": "Kielce",
+                    "coordinates1": "50.891732",
+                    "coordinates2": "20.62933499999997",
+                    "phone": "41 362 70 40",
+                    "address": "ul. Zagna\u0144ska 71",
+                    "id": 42,
+                    "email": "kielce@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/kielce-ul-zagnanska-71,42.html"
+                  }, {
+                    "postalCode": "26-110",
+                    "city": "Skar\u017cysko-Kamienna",
+                    "coordinates1": "51.126059",
+                    "coordinates2": "20.87895290000006",
+                    "phone": "604 260 534",
+                    "address": "ul. Wiejska 35A",
+                    "id": 43,
+                    "email": "skarzyskokamienna@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/skarzysko-kamienna-ul-wiejska-35a,43.html"
+                  }, {
+                    "postalCode": "34 - 424",
+                    "city": "Szaflary",
+                    "coordinates1": "49.439634",
+                    "coordinates2": "20.02033689999996",
+                    "phone": "18 275 49 87",
+                    "address": "ul. Zakopia\u0144ska 18",
+                    "id": 44,
+                    "email": "szaflary@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/szaflary-ul-zakopianska-18,44.html"
+                  }, {
+                    "postalCode": "32-300",
+                    "city": "Olkusz",
+                    "coordinates1": "50.2740678",
+                    "coordinates2": "19.580376200000046",
+                    "phone": "32 647 38 00",
+                    "address": "ul. Kazimierza Wielkiego 102",
+                    "id": 45,
+                    "email": "olkusz@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/olkusz-ul-kazimierza-wielkiego-102,45.html"
+                  }, {
+                    "postalCode": "34-120",
+                    "city": "Andrych\u00f3w",
+                    "coordinates1": "49.854318",
+                    "coordinates2": "19.336701199999993",
+                    "phone": "503 759 009",
+                    "address": "ul. Krakowska 83E",
+                    "id": 46,
+                    "email": "andrychow@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/andrychow-ul-krakowska-83e,46.html"
+                  }, {
+                    "postalCode": "34-100",
+                    "city": "Wadowice",
+                    "coordinates1": "49.8762993",
+                    "coordinates2": "19.501171",
+                    "phone": "570-312-405",
+                    "address": "ul. Putka 9",
+                    "id": 47,
+                    "email": "wadowice@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/wadowice-ul-putka-9,47.html"
+                  }, {
+                    "postalCode": "39-300",
+                    "city": "Mielec",
+                    "coordinates1": "50.285446",
+                    "coordinates2": "21.431587000000036",
+                    "phone": "606 779 149",
+                    "address": "ul. Targowa 3",
+                    "id": 48,
+                    "email": "krismat1@op.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/mielec-ul-targowa-3,48.html"
+                  }, {
+                    "postalCode": "84-200",
+                    "city": "Wejherowo",
+                    "coordinates1": "54.6028234",
+                    "coordinates2": "18.298920100000032",
+                    "phone": "58 67 21 191",
+                    "address": "ul. Gda\u0144ska 5",
+                    "id": 51,
+                    "email": "wejherowo@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/wejherowo-ul-gdanska-5,51.html"
+                  }, {
+                    "postalCode": "47-200",
+                    "city": "K\u0119dzierzyn-Ko\u017ale",
+                    "coordinates1": "50.339142",
+                    "coordinates2": "18.18909400000007",
+                    "phone": "664 302 663",
+                    "address": "ul. M\u0142y\u0144ska 2",
+                    "id": 52,
+                    "email": "kedzierzyn@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/kedzierzyn-kozle-ul-mlynska-2,52.html"
+                  }, {
+                    "postalCode": "16-400",
+                    "city": "Suwa\u0142ki",
+                    "coordinates1": "54.0982825",
+                    "coordinates2": "22.95608010000001",
+                    "phone": "87 563 28 48",
+                    "address": "ul. Sejne\u0144ska 36",
+                    "id": 53,
+                    "email": "suwalki@ruckzuck.com.pl",
+                    "url": "http:\/\/ruckzuck.dev.dc2.pl\/nasze-salony\/suwalki-ul-sejnenska-36,53.html"
+                  }
