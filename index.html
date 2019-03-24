@@ -11,11 +11,11 @@
 
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container-fluid">
       <nav class="navbar-main">
         <div class="logo">
           <a href="#">
-            <img src="assets/img/Sentis logo.jpg" alt="" class="responsive-img">
+            <img src="assets/img/Sentis logo.jpg" alt="" class="responsive-logo">
           </a>
         </div>
         <div class="burger">
@@ -32,7 +32,7 @@
       </nav>
       <div class="banner">
         <div class="banner__overlay">
-          <a href="#" class="btn btn--collection">
+          <a href="#collection" class="btn btn--collection">
             <span class="btn__text">Zobacz kolekcje</span>
             <div class="btn__icon">
               <img src="assets/img/Ikony/icon_down.png" alt="Ikona w dół" class="btn__img">
@@ -130,7 +130,8 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Cayo/cayo_parametry.png" alt="#" class="detail__img">
+                <img src="assets/img/Drzwi_Cayo/cayo_parametry.png" alt="#"
+                  class="detail__img detail__img--param-cayo responsive-img">
               </div>
               <h3 class="heading heading--detail">Aplikacja szklana</h3>
               <div class="detail__glass">
@@ -202,7 +203,8 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Diego/diego_parametry.png" alt="#" class="detail__img">
+                <img src="assets/img/Drzwi_Diego/diego_parametry.png" alt="#"
+                  class="detail__img detail__img--param-diego responsive-img">
               </div>
               <h3 class="heading heading--detail">Aplikacja fornirowana</h3>
               <div class="detail__glass">
@@ -273,7 +275,7 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3> <img src="assets/img/Drzwi_Lope/lope_parametry.png"
-                  alt="#" class="detail__img">
+                  alt="#" class="detail__img detail__img--param-lope responsive-img">
               </div>
               <h3 class="heading heading--detail">Aplikacja szklana</h3>
               <div class="detail__glass">
@@ -339,7 +341,8 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Inez/inez_parametry.png" alt="#" class="detail__img responsive-img">
+                <img src="assets/img/Drzwi_Inez/inez_parametry.png" alt="#"
+                  class="detail__img detail__img--param-inez responsive-img">
               </div>
               <div class="detail__glass">
                 <img src="assets/img/LAK_PU.jpg" alt="#" class="detail__img">
@@ -372,7 +375,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="ramon">
           <div class="col-1-of-2">
             <div class="model model--ramon active">
               <figure class="model__figure">
@@ -635,65 +638,89 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Ramon/ramon_parametry.png" alt="#" class="detail__img responsive-img">
+                <img src="assets/img/Drzwi_Ramon/ramon_parametry.png" alt="#"
+                  class="detail__img detail__img--param-ramon responsive-img">
               </div>
               <h3 class="heading heading--detail">Wybierz dekor:</h3>
+
               <div class="detail__dekors">
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_dab_san_remo.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="0">
-                  <figcaption class="detail__figcaption">Dąb san remo</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_dab_riviera.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="1">
-                  <figcaption class="detail__figcaption">Dąb riviera</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_orzech_kolumbia_jasny.jpg" alt="#"
-                    class="detail__img detail__img--type" data-type="2">
-                  <figcaption class="detail__figcaption">Orzech kolumbia jasny</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_olejowany.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="3">
-                  <figcaption class="detail__figcaption">Dąb olejowany</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_dab_palony.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="4">
-                  <figcaption class="detail__figcaption">Dąb palony</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_jesion_bialy.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="5">
-                  <figcaption class="detail__figcaption">Jesion biały</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_dab_sonoma.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="6">
-                  <figcaption class="detail__figcaption">Dąb sonoma</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_jesion_grafitowy.jpg" alt="#"
-                    class="detail__img detail__img--type" data-type="7">
-                  <figcaption class="detail__figcaption">Jesion grafitowy</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_bialy_mat.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="8">
-                  <figcaption class="detail__figcaption">Biały mat</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor-akacja.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="9">
-                  <figcaption class="detail__figcaption">Akacja ST</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Ramon/dekor_dab_szary.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="10">
-                  <figcaption class="detail__figcaption">Dąb szary</figcaption>
-                </figure>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_dab_san_remo.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="0">
+                    <figcaption class="detail__figcaption">Dąb san remo</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_dab_riviera.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="1">
+                    <figcaption class="detail__figcaption">Dąb riviera</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_orzech_kolumbia_jasny.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="2">
+                    <figcaption class="detail__figcaption">Orzech kolumbia</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_olejowany.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="3">
+                    <figcaption class="detail__figcaption">Dąb olejowany</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_dab_palony.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="4">
+                    <figcaption class="detail__figcaption">Dąb palony</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_jesion_bialy.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="5">
+                    <figcaption class="detail__figcaption">Jesion biały</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_dab_sonoma.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="6">
+                    <figcaption class="detail__figcaption">Dąb sonoma</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_jesion_grafitowy.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="7">
+                    <figcaption class="detail__figcaption">Jesion grafitowy</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_bialy_mat.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="8">
+                    <figcaption class="detail__figcaption">Biały mat</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor-akacja.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="9">
+                    <figcaption class="detail__figcaption">Akacja ST</figcaption>
+                  </figure>
+                </a>
+                <a href="#ramon" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Ramon/dekor_dab_szary.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="10">
+                    <figcaption class="detail__figcaption">Dąb szary</figcaption>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>
@@ -721,7 +748,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="sensa">
           <div class="col-1-of-2">
             <div class="model model--sensa active">
               <figure class="model__figure">
@@ -852,7 +879,6 @@
               </figure>
             </div>
 
-
             <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Dab_Olejowany_model_1.jpg" alt="#"
@@ -896,7 +922,7 @@
               </figure>
             </div>
 
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Dab_palony_model_1.jpg" alt="#"
                   class="model__img">
@@ -939,8 +965,7 @@
               </figure>
             </div>
 
-
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Jesion_Bialy_model_1.jpg" alt="#"
                   class="model__img">
@@ -983,8 +1008,7 @@
               </figure>
             </div>
 
-
-            <div class="model model--sensa active">
+            <div class="model model--sensa ">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Dab_sonoma_model_1.jpg" alt="#"
                   class="model__img">
@@ -1028,7 +1052,7 @@
             </div>
 
 
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Jesion_grafitowy_model_1.jpg" alt="#"
                   class="model__img">
@@ -1071,7 +1095,7 @@
               </figure>
             </div>
 
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Sensa_Bialy_Mat_model_1.jpg" alt="#"
                   class="model__img">
@@ -1114,7 +1138,7 @@
               </figure>
             </div>
 
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Akacja_model_1.jpg" alt="#"
                   class="model__img">
@@ -1157,7 +1181,7 @@
               </figure>
             </div>
 
-            <div class="model model--sensa active">
+            <div class="model model--sensa">
               <figure class="model__figure">
                 <img src="assets/img/Drzwi_Sensa/typ/Drzwi_wewnetrzne_Sentis_Sensa_Dab_Szary_model_1.jpg" alt="#"
                   class="model__img">
@@ -1200,71 +1224,94 @@
               </figure>
             </div>
 
-
           </div>
           <div class="col-1-of-2">
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Sensa/sensa_parametry.png" alt="#" class="detail__img responsive-img">
+                <img src="assets/img/Drzwi_Sensa/sensa_parametry.png" alt="#"
+                  class="detail__img detail__img--param-sensa responsive-img">
               </div>
               <h3 class="heading heading--detail">Wybierz dekor:</h3>
               <div class="detail__dekors">
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_san_remo.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="0">
-                  <figcaption class="detail__figcaption">Dąb san remo</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_riviera.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="1">
-                  <figcaption class="detail__figcaption">Dąb riviera</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Orzech_kolumbia_jasny.jpg" alt="#"
-                    class="detail__img detail__img--type" data-type="2">
-                  <figcaption class="detail__figcaption">Orzech kolumbia jasny</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_olejowany.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="3">
-                  <figcaption class="detail__figcaption">Dąb olejowany</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_palony.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="4">
-                  <figcaption class="detail__figcaption">Dąb palony</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Jesion_bialy.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="5">
-                  <figcaption class="detail__figcaption">Jesion biały</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_sonoma.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="6">
-                  <figcaption class="detail__figcaption">Dąb sonoma</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Jesion_grafitowy.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="7">
-                  <figcaption class="detail__figcaption">Jesion grafitowy</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/bialy_mat.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="8">
-                  <figcaption class="detail__figcaption">Biały mat</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Akacja_ST.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="9">
-                  <figcaption class="detail__figcaption">Akacja ST</figcaption>
-                </figure>
-                <figure class="detail__figure">
-                  <img src="assets/img/Drzwi_Sensa/Dab_szary.jpg" alt="#" class="detail__img detail__img--type"
-                    data-type="10">
-                  <figcaption class="detail__figcaption">Dąb szary</figcaption>
-                </figure>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_san_remo.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="0">
+                    <figcaption class="detail__figcaption">Dąb san remo</figcaption>
+                  </figure>
+
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_riviera.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="1">
+                    <figcaption class="detail__figcaption">Dąb riviera</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Orzech_kolumbia_jasny.jpg" alt="#"
+                      class="detail__img detail__img--type" data-type="2">
+                    <figcaption class="detail__figcaption">Orzech kolumbia</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_olejowany.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="3">
+                    <figcaption class="detail__figcaption">Dąb olejowany</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_palony.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="4">
+                    <figcaption class="detail__figcaption">Dąb palony</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Jesion_bialy.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="5">
+                    <figcaption class="detail__figcaption">Jesion biały</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_sonoma.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="6">
+                    <figcaption class="detail__figcaption">Dąb sonoma</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Jesion_grafitowy.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="7">
+                    <figcaption class="detail__figcaption">Jesion grafitowy</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/bialy_mat.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="8">
+                    <figcaption class="detail__figcaption">Biały mat</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Akacja_ST.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="9">
+                    <figcaption class="detail__figcaption">Akacja ST</figcaption>
+                  </figure>
+                </a>
+                <a href="#sensa" class="detail__link">
+                  <figure class="detail__figure">
+                    <img src="assets/img/Drzwi_Sensa/Dab_szary.jpg" alt="#" class="detail__img detail__img--type"
+                      data-type="10">
+                    <figcaption class="detail__figcaption">Dąb szary</figcaption>
+                  </figure>
+                </a>
               </div>
             </div>
           </div>
@@ -1349,7 +1396,8 @@
             <div class="detail">
               <div class="detail__param">
                 <h3 class="heading heading--detail">Parametry</h3>
-                <img src="assets/img/Drzwi_Vidrio/vidrio_parametry.png" alt="#" class="detail__img">
+                <img src="assets/img/Drzwi_Vidrio/vidrio_parametry.png" alt="#"
+                  class="detail__img detail__img--param-vidrio responsive-img">
               </div>
               <h3 class="heading heading--detail">Szyba</h3>
               <img src="assets/img/Drzwi_Vidrio/Szyba_drzwi_Sentis_Vidrio.jpg" alt="#"
@@ -1504,6 +1552,14 @@
               <textarea name="msg" id="msg" cols="30" rows="10" class="form__textarea" placeholder="Treść"
                 required></textarea>
               <button class="btn btn--send">Wyślij formularz</button>
+              <!-- <div class="contact__rodo">
+                <input type="checkbox" required>
+                <p class="paragraph -"> Wyrażam zgodę na gromadzenie i przetwarzanie moich danych osobowych przez
+                  RuckZuck.biz sp. z o. o. z siedzibą w Zwonowicach, zgodnie z Rozporządzeniem Parlamentu Europejskiego
+                  i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z
+                  przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia
+                  dyrektywy 95/46/WE (RODO) w celach marketingowych.</p>
+              </div> -->
             </form>
           </div>
         </div>
@@ -1513,9 +1569,12 @@
   <footer class="footer">
     <div class="container">
       <hr class="hr">
-      <p class="footer__text">
-        sentis.pl - &copy; Wszelkie prawa zastrzeżone
-      </p>
+      <div class="row">
+        <p class="footer__text">
+          sentis.pl - &copy; Wszelkie prawa zastrzeżone
+        </p>
+        <a href="#"><img src="assets/img/Ikony/fb_icon.png" alt="#"></a>
+      </div>
     </div>
   </footer>
 

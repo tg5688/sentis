@@ -1,0 +1,70 @@
+.btn {
+
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &--collection {
+        position: absolute;
+        bottom: 0;
+        left: 5rem;
+        background-color: $color-bg-secondary;
+
+        @include respond(phone) {
+            left: 0;
+        }
+
+    }
+
+
+    &__text {
+        color: $color-secondary;
+        padding: 2rem;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        width: 100%;
+        border: 2px solid $color-bg-secondary;
+        transition: .3s all;
+
+        &:hover {
+            background-color: $color-bg-primary;
+            color: $color-bg-secondary;
+        }
+
+        &--download {
+            background-color: $color-bg-gray;
+            text-align: center;
+            border: 2px solid $color-bg-gray;
+
+            &:hover {
+                background-color: $color-bg-primary;
+                color: $color-bg-gray;
+            }
+        }
+    }
+
+    &__icon {
+        padding: 1.5rem;
+        background-color: #fff;
+        align-self: center;
+    }
+
+    &--send {
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+        color: $color-secondary;
+        background-color: $color-bg-secondary;
+        border: 2px solid $color-bg-secondary;
+        cursor: pointer;
+        transition: all .3s;
+
+        &:hover {
+            background-color: $color-bg-primary;
+            color: $color-bg-secondary;
+        }
+    }
+}

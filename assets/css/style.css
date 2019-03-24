@@ -41,6 +41,9 @@ body {
   font-family: 'Lato', sans-serif;
   color: #696971; }
 
+.container-fluid {
+  margin: 0 auto; }
+
 .container {
   max-width: 120rem;
   margin: 0 auto; }
@@ -92,13 +95,15 @@ body {
 .responsive-img {
   width: 100%;
   height: auto; }
-  @media only screen and (max-width: 37.5em) {
-    .responsive-img {
-      width: 80%; } }
+
+@media only screen and (max-width: 37.5em) {
+  .responsive-logo {
+    width: 80%; } }
 
 @media only screen and (max-width: 37.5em) {
   .logo {
-    width: 70%; } }
+    width: 70%;
+    margin-left: 1rem; } }
 
 .burger {
   display: none;
@@ -125,9 +130,8 @@ body {
 
 .banner {
   position: relative;
-  height: calc(85vh - 2rem);
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed; }
   @media only screen and (max-width: 56.25em) {
@@ -140,53 +144,6 @@ body {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2); }
-
-.btn:link, .btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  display: flex;
-  align-items: center; }
-
-.btn--collection {
-  position: absolute;
-  bottom: 0;
-  left: 5rem;
-  background-color: #e09590; }
-  @media only screen and (max-width: 37.5em) {
-    .btn--collection {
-      left: 0; } }
-
-.btn__text {
-  color: #fff;
-  padding: 1.5rem;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  width: 100%;
-  border: 3px solid #e09590;
-  transition: .3s all; }
-  .btn__text:hover {
-    background-color: #fff;
-    color: #e09590; }
-  .btn__text--download {
-    background-color: #2a2426;
-    text-align: center;
-    border: 2px solid #2a2426; }
-    .btn__text--download:hover {
-      background-color: #fff;
-      color: #2a2426; }
-
-.btn__icon {
-  padding: 1.5rem;
-  background-color: #fff;
-  align-self: center; }
-
-.btn--send {
-  padding: 1rem 2rem;
-  margin-top: 1rem;
-  color: #fff;
-  background-color: #e09590;
-  border: none;
-  cursor: pointer; }
 
 .slider-box {
   position: absolute;
@@ -255,15 +212,12 @@ body {
   padding: 2rem 0; }
   .detail__param {
     margin-bottom: 5rem; }
-    @media only screen and (max-width: 37.5em) {
-      .detail__param {
-        display: none; } }
   .detail__dekors {
     display: flex;
     flex-wrap: wrap; }
     @media only screen and (max-width: 37.5em) {
       .detail__dekors {
-        justify-content: center; } }
+        justify-content: space-around; } }
   .detail__glass {
     display: flex;
     justify-content: space-between; }
@@ -276,15 +230,31 @@ body {
       .detail__img {
         margin-top: 2rem;
         align-self: flex-start; } }
+    .detail__img--param-cayo {
+      max-width: 359px; }
+    .detail__img--param-diego {
+      max-width: 339px; }
+    .detail__img--param-lope {
+      max-width: 357px; }
+    .detail__img--param-inez {
+      max-width: 593px; }
+    .detail__img--param-ramon {
+      max-width: 495px; }
+    .detail__img--param-sensa {
+      max-width: 508px; }
+    .detail__img--param-vidrio {
+      max-width: 196px; }
     .detail__img--type {
       cursor: pointer; }
+  .detail__link:link, .detail__link:visited {
+    color: #696971;
+    text-decoration: none; }
   .detail__figure {
     margin-right: 1rem;
     margin-bottom: 1rem; }
     @media only screen and (max-width: 56.25em) {
       .detail__figure {
-        flex-basis: 20%;
-        margin-right: 3rem; } }
+        flex-basis: 20%; } }
   .detail__figcaption {
     font-size: 1.2rem; }
 
@@ -296,6 +266,9 @@ body {
     align-items: center;
     margin-bottom: 4rem;
     padding-left: 8rem; }
+    @media only screen and (max-width: 37.5em) {
+      .sentis-about__head {
+        padding-left: 0; } }
 
 .google-maps {
   height: 380px;
@@ -326,10 +299,10 @@ body {
   background: #2a2426; }
 
 .header {
-  padding: 2rem 0; }
+  padding: 15px 15px 0 15px; }
   @media only screen and (max-width: 37.5em) {
     .header {
-      padding: 2rem 0; } }
+      padding: 15px 0 0 0; } }
 
 .navbar-main {
   display: flex; }
@@ -341,6 +314,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    max-width: 120rem;
+    margin-left: auto;
     list-style: none;
     font-size: 1.6rem; }
     @media only screen and (max-width: 37.5em) {
@@ -438,8 +413,10 @@ body {
     align-items: center; }
 
 .footer {
-  padding: 2rem 0; }
+  padding: 2rem; }
   .footer__text {
+    align-self: center;
+    margin-right: 2rem;
     font-size: 1.5rem; }
 
 .heading {
@@ -501,20 +478,27 @@ body {
       content: '';
       display: block;
       background-color: #fff;
+      margin-right: 1rem;
       height: 2px;
-      width: 50px;
+      width: 5rem;
       position: absolute;
       top: 14px;
-      left: -140px; }
+      left: -14rem; }
+      @media only screen and (max-width: 56.25em) {
+        .heading--about:before {
+          left: -16rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .heading--about:before {
+          display: none; } }
     .heading--about:after {
       content: '';
       display: block;
       background-color: #fff;
       height: 2px;
-      width: 50px;
+      width: 5rem;
       position: absolute;
       top: 14px;
-      right: -60px; }
+      right: -6rem; }
   .heading--contact {
     text-align: left;
     font-size: 1.6rem;
@@ -529,3 +513,54 @@ body {
   .paragraph--about {
     color: #fff;
     font-size: 1.8rem; }
+
+.btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  align-items: center; }
+
+.btn--collection {
+  position: absolute;
+  bottom: 0;
+  left: 5rem;
+  background-color: #e09590; }
+  @media only screen and (max-width: 37.5em) {
+    .btn--collection {
+      left: 0; } }
+
+.btn__text {
+  color: #fff;
+  padding: 2rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  width: 100%;
+  border: 2px solid #e09590;
+  transition: .3s all; }
+  .btn__text:hover {
+    background-color: #fff;
+    color: #e09590; }
+  .btn__text--download {
+    background-color: #2a2426;
+    text-align: center;
+    border: 2px solid #2a2426; }
+    .btn__text--download:hover {
+      background-color: #fff;
+      color: #2a2426; }
+
+.btn__icon {
+  padding: 1.5rem;
+  background-color: #fff;
+  align-self: center; }
+
+.btn--send {
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #e09590;
+  border: 2px solid #e09590;
+  cursor: pointer;
+  transition: all .3s; }
+  .btn--send:hover {
+    background-color: #fff;
+    color: #e09590; }

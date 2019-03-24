@@ -1,3 +1,6 @@
+var heightNav = $('.navbar-main').height();
+$('.banner').css('height', 'calc(100vh - ' + heightNav + 'px - 15px)')
+
 $('.burger').click(function () {
     $('.navbar-main__list').slideToggle(1000);
     $('.burger>*').toggleClass('show');
@@ -10,30 +13,50 @@ $('.navbar-main__link').click(function () {
     }, 500)
 })
 
+$('.btn--collection').click(function () {
+    var goToSection = $(this).attr('href');
+    $('body, html').animate({
+        scrollTop: $(goToSection).offset().top
+    }, 500)
+})
+
+$('.detail-img--type').click(function () {
+    var goToDekor = $(this).attr('href');
+    $('body, html').animate({
+        scrollTop: $(goToDekor).offset().top
+    }, 10000)
+})
+
 //slider
 var count = 0;
 var time = 7000;
 var imagesList = [{
     img: 'assets/img/Slider/cayo.jpg',
+    img_m: 'assets/img/Slider/cayo_m.jpg',
     text: 'cayo',
-    // position: 'right center'
 }, {
     img: 'assets/img/Slider/diego.jpg',
+    img_m: 'assets/img/Slider/diego_m.jpg',
     text: 'diego'
 }, {
     img: 'assets/img/Slider/inez.jpg',
+    img_m: 'assets/img/Slider/inez_m.jpg',
     text: 'inez'
 }, {
     img: 'assets/img/Slider/lope.jpg',
+    img_m: 'assets/img/Slider/lope_m.jpg',
     text: 'lope'
 }, {
     img: 'assets/img/Slider/ramon.jpg',
+    img_m: 'assets/img/Slider/ramon_m.jpg',
     text: 'ramon'
 }, {
     img: 'assets/img/Slider/sensa.jpg',
+    img_m: 'assets/img/Slider/sensa_m.jpg',
     text: 'sensa'
 }, {
     img: 'assets/img/Slider/vidrio.jpg',
+    img_m: 'assets/img/Slider/vidrio_m.jpg',
     text: 'vidrio'
 }];
 var banner = $('.banner');
@@ -41,7 +64,6 @@ var doorName = $('#name');
 var numberList = $('.slider-box__item');
 
 banner.css('background-image', 'url(' + imagesList[0].img + ')');
-// banner.css('background-posiotion', imagesList[0].position);
 doorName.text(imagesList[0].text)
 
 var changeNumber = function (that) {
@@ -55,10 +77,18 @@ var timeChangeSlide = function () {
     count++;
     if (count == imagesList.length) count = 0;
     banner.fadeOut(500, function () {
-        banner.css('background-image', 'url(' + imagesList[count].img + ')');
-        doorName.text(imagesList[count].text)
-        banner.fadeIn(500);
-        changeNumber(numberList[count]);
+        if ($(window).width() < 600) {
+            banner.css('background-image', 'url(' + imagesList[count].img_m + ')');
+            doorName.text(imagesList[count].text)
+            banner.fadeIn(500);
+            changeNumber(numberList[count]);
+        } else {
+            banner.css('background-image', 'url(' + imagesList[count].img + ')');
+            doorName.text(imagesList[count].text)
+            banner.fadeIn(500);
+            changeNumber(numberList[count]);
+        }
+
     })
 }
 

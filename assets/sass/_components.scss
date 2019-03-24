@@ -1,6 +1,7 @@
 .logo {
     @include respond(phone) {
         width: 70%;
+        margin-left: 1rem;
     }
 }
 
@@ -43,10 +44,10 @@
 
 .banner {
     position: relative;
-    height: calc(85vh - 2rem);
+    // height: calc(85vh - 2rem);
     // background-image: url('../img/Slider/Sentis_Cayo_drzwi_wewnetrze_aranzacja.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -63,81 +64,6 @@
         background: rgba(0, 0, 0, .2);
     }
 }
-
-.btn {
-
-    &:link,
-    &:visited {
-        text-transform: uppercase;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-    }
-
-    &--collection {
-        position: absolute;
-        bottom: 0;
-        left: 5rem;
-        background-color: $color-bg-secondary;
-
-        @include respond(phone) {
-            // bottom: 0;
-            left: 0;
-        }
-
-    }
-
-    // &--download {
-    //     // justify-content: center;
-    // }
-
-    &__text {
-        color: $color-secondary;
-        padding: 1.5rem;
-        text-transform: uppercase;
-        font-size: 1.3rem;
-        // line-height: 2rem;
-        width: 100%;
-        border: 3px solid $color-bg-secondary;
-        transition: .3s all;
-
-        &:hover {
-            background-color: $color-bg-primary;
-            color: $color-bg-secondary;
-        }
-
-        &--download {
-            background-color: $color-bg-gray;
-            text-align: center;
-            border: 2px solid $color-bg-gray;
-
-            &:hover {
-                background-color: $color-bg-primary;
-                color: $color-bg-gray;
-            }
-        }
-    }
-
-    &__icon {
-        padding: 1.5rem;
-        background-color: #fff;
-        align-self: center;
-
-        // @include respond(phone) {
-        //     display: none;
-        // }
-    }
-
-    &--send {
-        padding: 1rem 2rem;
-        margin-top: 1rem;
-        color: $color-secondary;
-        background-color: $color-bg-secondary;
-        border: none;
-        cursor: pointer;
-    }
-}
-
 
 
 .slider-box {
@@ -223,7 +149,7 @@
     flex-wrap: wrap;
 
     @include respond(tab-port) {
-        justify-content: center
+        justify-content: center;
     }
 
     &__figure {
@@ -243,7 +169,6 @@
         height: auto;
     }
 
-
     &--ramon,
     &--sensa {
         display: none;
@@ -261,9 +186,9 @@
     &__param {
         margin-bottom: 5rem;
 
-        @include respond(phone) {
-            display: none;
-        }
+        // @include respond(phone) {
+        //     display: none;
+        // }
     }
 
     &__dekors {
@@ -271,7 +196,7 @@
         flex-wrap: wrap;
 
         @include respond(phone) {
-            justify-content: center;
+            justify-content: space-around;
         }
 
     }
@@ -299,10 +224,47 @@
             align-self: flex-start;
         }
 
+        &--param-cayo {
+            max-width: 359px;
+        }
+
+        &--param-diego {
+            max-width: 339px;
+        }
+
+        &--param-lope {
+            max-width: 357px;
+        }
+
+        &--param-inez {
+            max-width: 593px;
+        }
+
+        &--param-ramon {
+            max-width: 495px;
+        }
+
+        &--param-sensa {
+            max-width: 508px;
+        }
+
+        &--param-vidrio {
+            max-width: 196px;
+        }
+
         &--type {
             cursor: pointer;
         }
 
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            color: $color-primary;
+            text-decoration: none;
+        }
     }
 
     &__figure {
@@ -311,7 +273,7 @@
 
         @include respond(tab-port) {
             flex-basis: 20%;
-            margin-right: 3rem;
+            // margin-right: 3rem;
         }
 
     }
@@ -334,6 +296,10 @@
         align-items: center;
         margin-bottom: 4rem;
         padding-left: 8rem;
+
+        @include respond(phone) {
+            padding-left: 0;
+        }
     }
 
     &__catalog {
