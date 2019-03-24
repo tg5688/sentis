@@ -26,9 +26,11 @@
 
     .col-1-of-2 {
         flex: 0 0 calc(50% - 2rem);
+        max-width: calc(50% - 2rem);
 
         @include respond(phone) {
             flex: 0 0 100%;
+            max-width: 100%;
 
             &:not(:first-child) {
                 margin-top: 1rem;
@@ -36,35 +38,13 @@
         }
     }
 
-    .col-2-of-3 {
-        flex: 0 0 calc(66% - 1rem);
-
-        @include respond(phone) {
-            flex: 0 0 100%;
-
-            &:not(:first-child) {
-                margin-top: 3rem;
-            }
-        }
-    }
-
-    .col-1-of-3 {
-        flex: 0 0 calc(33% - 1rem);
-
-        @include respond(phone) {
-            flex: 0 0 100%;
-
-            &:not(:first-child) {
-                margin-top: 3rem;
-            }
-        }
-    }
-
     .col-1-about {
         flex: 0 0 calc(75% - .5rem);
+        max-width: calc(75% - .5rem);
 
         @include respond(phone) {
             flex: 0 0 100%;
+            max-width: 100%;
 
             &:not(:first-child) {
                 margin-top: 3rem;
@@ -74,25 +54,15 @@
 
     .col-2-about {
         flex: 0 0 calc(25% - .5rem);
+        max-width: calc(25% - .5rem);
 
         @include respond(phone) {
             flex: 0 0 100%;
+            max-width: 100%;
 
             &:not(:first-child) {
                 margin-top: 3rem;
             }
         }
     }
-
-    // .col-1-of-4 {
-    //     flex: 0 0 calc(25% - 2rem);
-
-    //     @include respond(tab-port) {
-    //         flex: 0 0 calc(50% - 2rem);
-    //     }
-
-    //     @include respond(phone) {
-    //         flex: 0 0 100%;
-    //     }
-    // }
 }
