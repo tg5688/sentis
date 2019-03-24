@@ -39,7 +39,6 @@
             </div>
           </a>
           <div class="slider-box">
-            <!-- <div class="slider-box__overlay"> -->
             <ul class="slider-box__list">
               <li class="slider-box__item active">01</li>
               <li class="slider-box__item">02</li>
@@ -53,7 +52,6 @@
               <h2 class="heading heading--secondary">Drzwi <br><span id="name"></span></h2>
               <h3 class="heading heading--slider_box">Drzwi wewnętrzne</h3>
             </div>
-            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -1453,7 +1451,6 @@
           <div class="col-1-of-2" id="where-buy">
             <h3 class="heading heading--section">Gdzie kupić?</h3>
             <div id="map" class="google-maps">
-              <!-- <div id="iframe_map" class="google-maps"> -->
               <script>
                 function initMap() {
                   var options = {
@@ -1542,24 +1539,26 @@
               <img src="assets/img/Ikony/contact_form_icon.png" alt="">
             </div>
             <form action="#" class="form">
-              <!-- <label for="name" class="form__label">name</label> -->
               <input type="text" name="name" id="name" class="form__input" placeholder="Imię i nazwisko" required>
 
-              <!-- <label for="email" class="form__label">e-mail</label> -->
               <input type="email" name="email" id="email" class="form__input" placeholder="E-mail" required>
 
-              <!-- <label for="msg" class="form__label">message</label> -->
               <textarea name="msg" id="msg" cols="30" rows="10" class="form__textarea" placeholder="Treść"
                 required></textarea>
-              <button class="btn btn--send">Wyślij formularz</button>
-              <!-- <div class="contact__rodo">
-                <input type="checkbox" required>
-                <p class="paragraph -"> Wyrażam zgodę na gromadzenie i przetwarzanie moich danych osobowych przez
+              <div class="contact__rodo">
+                <label class="form__label-checkbox">
+                  <input type="checkbox" name="check" class="form__checkbox" required>
+                  <span class="form__checkmark"></span>
+                </label>
+                <p class="paragraph paragraph--rodo"> Wyrażam zgodę na gromadzenie i przetwarzanie moich danych
+                  osobowych przez
                   RuckZuck.biz sp. z o. o. z siedzibą w Zwonowicach, zgodnie z Rozporządzeniem Parlamentu Europejskiego
                   i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z
                   przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia
                   dyrektywy 95/46/WE (RODO) w celach marketingowych.</p>
-              </div> -->
+              </div>
+              <button class="btn btn--send">Wyślij formularz</button>
+
             </form>
           </div>
         </div>

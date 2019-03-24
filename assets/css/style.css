@@ -98,7 +98,7 @@ body {
 
 @media only screen and (max-width: 37.5em) {
   .responsive-logo {
-    width: 80%; } }
+    width: 70%; } }
 
 @media only screen and (max-width: 37.5em) {
   .logo {
@@ -246,9 +246,12 @@ body {
       max-width: 196px; }
     .detail__img--type {
       cursor: pointer; }
-  .detail__link:link, .detail__link:visited {
+  .detail__link {
     color: #696971;
     text-decoration: none; }
+    .detail__link:visited {
+      color: #696971;
+      text-decoration: none; }
   .detail__figure {
     margin-right: 1rem;
     margin-bottom: 1rem; }
@@ -284,13 +287,60 @@ body {
   background-color: #f5f5f5;
   padding: 10px;
   margin-top: 2rem;
-  border: none; }
+  border: none;
+  resize: none; }
   .form__input::placeholder, .form__textarea::placeholder {
     font-size: 1.4rem;
     opacity: 1; }
   .form__input:focus, .form__textarea:focus {
     outline: none;
     border: 2px solid #e09590; }
+
+.form__label-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none; }
+
+.form__checkbox {
+  float: left;
+  margin: .8rem;
+  padding: 1rem;
+  position: relative;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0; }
+  .form__checkbox:checked ~ .form__checkmark {
+    background-color: #e09590; }
+  .form__checkbox:checked ~ .form__checkmark:after {
+    display: block; }
+
+.form__checkmark {
+  margin-left: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee; }
+  .form__checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
 
 .hr {
   margin: 2rem 0;
@@ -513,6 +563,9 @@ body {
   .paragraph--about {
     color: #fff;
     font-size: 1.8rem; }
+  .paragraph--rodo {
+    font-size: 1.2rem;
+    margin: 0; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
